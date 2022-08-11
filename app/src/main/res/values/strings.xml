@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Калькулятор поездки</string>
+    <string name="tab_text_1">Расчет</string>
+    <string name="tab_text_2">Настройки</string>
+</resources>
