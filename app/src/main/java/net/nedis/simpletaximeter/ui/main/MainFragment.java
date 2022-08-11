@@ -20,6 +20,7 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.textfield.TextInputEditText;
 
+import net.nedis.simpletaximeter.adapter.RightDrawableClickListener;
 import net.nedis.simpletaximeter.adapter.TextWatcherAdapter;
 import net.nedis.simpletaximeter.databinding.FragmentMainBinding;
 import net.nedis.simpletaximeter.logic.Calculator;
@@ -59,6 +60,7 @@ public class MainFragment extends Fragment {
         editText.addTextChangedListener(listener);
         editText.setOnFocusChangeListener(listener);
         editText.setInputType(InputType.TYPE_CLASS_NUMBER + InputType.TYPE_NUMBER_FLAG_DECIMAL);
+        editText.setOnTouchListener(new RightDrawableClickListener());
     }
 
     public void calculate() {

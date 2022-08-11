@@ -44,6 +44,7 @@
                     android:inputType="number"
                     android:maxLines="1"
                     android:textSize="@dimen/value_size"
+                    android:drawableRight="@drawable/ic_clear_text"
                     android:singleLine="true"
                     android:background="@color/white" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -68,6 +69,7 @@
                     android:inputType="number"
                     android:textSize="@dimen/value_size"
                     android:maxLines="1"
+                    android:drawableRight="@drawable/ic_clear_text"
                     android:singleLine="true"
                     android:background="@color/white" />
             </com.google.android.material.textfield.TextInputLayout>
